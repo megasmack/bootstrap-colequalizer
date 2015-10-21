@@ -51,12 +51,12 @@ Which will output this in the browser:
 
 ## Notes
 
-- Heights will update based on window resize to accunt for responsive styles. Yay!
+- Heights will update based on window resize to account for responsive styles. Yay!
 - Currently heights reset to auto when the viewport is within Bootstrap’s `xs` breakpoint. Future versions may make this more flexible.
-- If you don’t need the column heights to be equal and you just want elements to clear each other, checkout [Bootstrap RowEqualizer](https://github.com/gsmke/bootstrap-rowequalizer). It will clear each "row" without matching ALL the heights. Plus front-end performance fair better as well.
+- If you don’t need the column heights to be equal and you just want elements to clear each other, checkout [Bootstrap RowEqualizer](https://github.com/gsmke/bootstrap-rowequalizer). It will clear each "row" without matching ALL the heights. Plus front-end performance fares better as well.
 
 ## Known Issues
 
-- This will only work with Bootstraps default class names. If you are making your own class names via LESS or SASS, you’ll need to find other means of clearing rows. Or you can fake it by add a non-Bootstrap class that starts with "col-". For example, `col-item` would work.
-- I'm assuming Bootstrap 4’s Flexbox support may make this script obsolete. At the time of writing this, I haven't had a chance to work with Bootstrap 4 to see if this is the case. Given that there are new breakpoints in Bootstrap 4, I can say this script won't work at this time.
+- This will only work with Bootstrap’s default class names. If you are making your own class names via LESS or SASS, you’ll need to find other means of clearing rows. Alternatively, you can fake it by adding a non-Bootstrap class that starts with "col-". For example, `col-item` would work.
+- I'm assuming Bootstrap 4’s Flexbox support may make this script obsolete. At the time of writing this, I haven't had a chance to work with Bootstrap 4 to see if this is the case. Given that there are new breakpoints in Bootstrap 4, I can say this script likely won't work at this time.
 - May support older versions of jQuery. Untested.
