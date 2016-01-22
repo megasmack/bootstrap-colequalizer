@@ -1,7 +1,7 @@
 /* global window, module, define, jQuery, require */
 /*
- * Bootstrap ColEqualizer v1.0.0
- * https://github.com/gsmke/bootstrap-colequalizer
+ * Bootstrap ColEqualizer v1.0.2
+ * https://github.com/megasmack/bootstrap-colequalizer
  */
 
 ;(function(factory) {
