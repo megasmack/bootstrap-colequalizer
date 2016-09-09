@@ -65,7 +65,7 @@
     ColEqualizer.prototype.resizeWindow = function() {
 
         var _ = this;
-        var viewWidth = window.outerWidth;
+        var viewWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 
         // If set, minWidth shows/hides the nav based on the size of the browser
         // If minWidth not set, nav will always show
