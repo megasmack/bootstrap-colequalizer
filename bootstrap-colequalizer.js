@@ -1,6 +1,6 @@
 /* global window, module, define, jQuery, require */
 /*
- * Bootstrap ColEqualizer v1.0.2
+ * Bootstrap ColEqualizer v1.1.0
  * https://github.com/megasmack/bootstrap-colequalizer
  */
 
