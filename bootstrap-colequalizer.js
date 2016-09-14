@@ -45,27 +45,27 @@
         $(element).each(function (index,el) {
             _.colReset(el);
             var tallest = 0;
-            $('[class*=col-]',el).each(function (i,e) {
+            $('> [class*=col-]',el).each(function (i,e) {
                 var testHeight = $(e).height();
                 if (testHeight > tallest) {
                     tallest = testHeight;
                 }
             });
-            $('[class*=col-]',el).height(tallest);
+            $('> [class*=col-]',el).height(tallest);
         });
 
     };
 
     ColEqualizer.prototype.colReset = function(el) {
 
-        $('[class*=col-]',el).height('auto');
+        $('> [class*=col-]',el).height('auto');
 
     };
 
     ColEqualizer.prototype.resizeWindow = function() {
 
         var _ = this;
-        var viewWidth = window.outerWidth;
+        var viewWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 
         // If set, minWidth shows/hides the nav based on the size of the browser
         // If minWidth not set, nav will always show
