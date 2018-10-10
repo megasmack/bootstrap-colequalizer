@@ -82,7 +82,7 @@
         var _ = this;
         var $win = $(window);
 
-        $win.load(function () {
+        $win.on('load', function () {
             // Run function on window resize
             $win.on('resize', function () {
                 _.resizeWindow();
