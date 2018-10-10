@@ -40,7 +40,7 @@ To clear these rows on a typical 12 column grid, just run this script:
 
 Which will output this in the browser:
 ```html
-<div class="row row-eq">
+<div class="row col-eq">
 	<div class="col-sm-3" style="height: 120px;"></div>
 	<div class="col-sm-3" style="height: 120px;"></div>
 	<div class="col-sm-3" style="height: 120px;"></div>
